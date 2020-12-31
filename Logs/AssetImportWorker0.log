@@ -1,0 +1,319 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'zh' Physical Memory: 16204 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/RevitReader
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+5511
+Successfully changed project path to: D:/Unity/RevitReader
+D:/Unity/RevitReader
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 24.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/RevitReader/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f14)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   27.21.14.5730
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001310 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 23.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000965 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Restoring NuGet Packages
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.731 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1710.
+Total: 1.865000 ms (FindLiveObjects: 0.147400 ms CreateObjectMapping: 0.044800 ms MarkObjects: 1.421900 ms  DeleteObjects: 0.250300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefab/BIM.prefab
+  artifactKey: Guid(efc905d041175f94ab13a6ab131a934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BIM.prefab using Guid(efc905d041175f94ab13a6ab131a934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+BIMComponent:.ctor ()
+CategorySelector:.ctor () (at Assets/Scripts/CategorySelector.cs:17)
+
+[Assets/Scripts/CategorySelector.cs line 17]
+
+ -> (artifact id: '046a3c03b35f3d5742fe08876c60ad8f') in 0.079156 seconds
+  Import took 0.081404 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001810 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.5 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1714.
+Total: 2.252700 ms (FindLiveObjects: 0.175500 ms CreateObjectMapping: 0.063000 ms MarkObjects: 1.664600 ms  DeleteObjects: 0.348400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001140 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.720 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1716.
+Total: 1.963900 ms (FindLiveObjects: 0.188300 ms CreateObjectMapping: 0.045500 ms MarkObjects: 1.428200 ms  DeleteObjects: 0.301100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 381.481408 seconds.
+  path: Assets/Prefab/BIM.prefab
+  artifactKey: Guid(efc905d041175f94ab13a6ab131a934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BIM.prefab using Guid(efc905d041175f94ab13a6ab131a934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+BIMComponent:.ctor ()
+CategorySelector:.ctor () (at Assets/Scripts/CategorySelector.cs:17)
+
+[Assets/Scripts/CategorySelector.cs line 17]
+
+ -> (artifact id: '198c91c34b8154c1e1c96edede200779') in 0.069167 seconds
+  Import took 0.071375 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001061 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.739 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1718.
+Total: 1.760300 ms (FindLiveObjects: 0.136000 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.300600 ms  DeleteObjects: 0.291100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.105301 seconds.
+  path: Assets/Prefab/BIM.prefab
+  artifactKey: Guid(efc905d041175f94ab13a6ab131a934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BIM.prefab using Guid(efc905d041175f94ab13a6ab131a934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+BIMComponent:.ctor ()
+CategorySelector:.ctor () (at Assets/Scripts/CategorySelector.cs:17)
+
+[Assets/Scripts/CategorySelector.cs line 17]
+
+ -> (artifact id: '515570e5d19ca0d833647032338230a0') in 0.072743 seconds
+  Import took 0.161828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.953560 seconds.
+  path: Assets/Prefab/BIM.prefab
+  artifactKey: Guid(efc905d041175f94ab13a6ab131a934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BIM.prefab using Guid(efc905d041175f94ab13a6ab131a934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.MonoBehaviour:.ctor ()
+BIMComponent:.ctor ()
+CategorySelector:.ctor () (at Assets/Scripts/CategorySelector.cs:17)
+
+[Assets/Scripts/CategorySelector.cs line 17]
+
+ -> (artifact id: '6a74dfd0a549478bbb5993671e4481ae') in 0.008736 seconds
+  Import took 0.010989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.376429 seconds.
+  path: Assets/Prefab/BIM Walker Variant.prefab
+  artifactKey: Guid(58a617185306b3a479102c0a18bebd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BIM Walker Variant.prefab using Guid(58a617185306b3a479102c0a18bebd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262f3e1eb512f4258e31492f0e854bea') in 0.011896 seconds
+  Import took 0.014094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.543697 seconds.
+  path: Assets/Prefab/BIM Walker.prefab
+  artifactKey: Guid(58a617185306b3a479102c0a18bebd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BIM Walker.prefab using Guid(58a617185306b3a479102c0a18bebd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6335650531590e0818237510652c2768') in 0.008434 seconds
+  Import took 0.010425 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002015 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1720.
+Total: 1.864300 ms (FindLiveObjects: 0.148700 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.360400 ms  DeleteObjects: 0.319600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 283.273907 seconds.
+  path: Assets/Scripts/BIMLoader.cs
+  artifactKey: Guid(828a7c78214a98e4082911bd605874f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BIMLoader.cs using Guid(828a7c78214a98e4082911bd605874f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4944f08a9316a70737b13f7bf94326') in 0.013970 seconds
+  Import took 0.016082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014052 seconds.
+  path: Assets/Scripts/BIMLoader.cs
+  artifactKey: Guid(828a7c78214a98e4082911bd605874f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BIMLoader.cs using Guid(828a7c78214a98e4082911bd605874f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4944f08a9316a70737b13f7bf94326') in 0.002198 seconds
+  Import took 0.004217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.501676 seconds.
+  path: Assets/NuGet
+  artifactKey: Guid(217cb7caed5f7fb49b339428b1d80974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuGet using Guid(217cb7caed5f7fb49b339428b1d80974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450a6609d0d348d518d4588dfdd187d7') in 0.348291 seconds
+  Import took 0.350018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.076494 seconds.
+  path: Assets/NuGet/Resources
+  artifactKey: Guid(1738075a39a390447b7a620ca6962142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuGet/Resources using Guid(1738075a39a390447b7a620ca6962142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5967f16e87a6dfff55c983674bc18cc6') in 0.005365 seconds
+  Import took 0.007139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.603748 seconds.
+  path: Assets/NuGet/Editor
+  artifactKey: Guid(b3fad56c531ac5a4db190a745f589a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuGet/Editor using Guid(b3fad56c531ac5a4db190a745f589a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6bede9bc044ec7cc315f32931c47c5') in 0.006342 seconds
+  Import took 0.008566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 373.674896 seconds.
+  path: Assets/Packages
+  artifactKey: Guid(487d3f959f250dc449cf246d4f408ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages using Guid(487d3f959f250dc449cf246d4f408ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d97310c4af7e55696f4bbc55eb6505d') in 0.008544 seconds
+  Import took 0.012187 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001179 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1722.
+Total: 2.947400 ms (FindLiveObjects: 0.340100 ms CreateObjectMapping: 0.154400 ms MarkObjects: 2.060400 ms  DeleteObjects: 0.390200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
