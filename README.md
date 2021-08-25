@@ -1,6 +1,13 @@
 # BIM-Unity
 
+## 主要功能
+![搜索與定位](./Search.png)  
+* 點擊模型元件可即時顯示其相關資訊於左上面板中。
+* 可於左上面板直接輸入元件ID，系統會顯示其相關資訊並以紅框標示其位置。
 
+![調整透明度](./Trans.png)
+* 可透過右上角下拉是選單選擇要看的元件，其餘未被選到的元件將變透明。
+* 可透過右上角滾動調調整透明度。
 
 ## 介紹影片  
 https://drive.google.com/file/d/1fAF4qTlvVKLw4XONXvtqNuVv2YUGXl46/view?usp=sharing  
